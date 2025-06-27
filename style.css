@@ -1,0 +1,348 @@
+body {
+    background-color: white;
+}
+
+#navall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue !important;
+    z-index: 1000;
+}
+
+#navall .nav-link{
+    color: white;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    padding: 20px 40px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: sticky;
+    top: 55px;
+    z-index: 1000;
+}
+
+
+#heading img {
+    flex: 1;
+    height: 100px;
+}
+
+.title {
+    text-align: center;
+}
+
+
+.all {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.welcome {
+    width: 800px;
+    height: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.welcome:hover {
+    background-color: #FCECDD;
+    color: black;
+}
+
+.welcome h3 {
+    color: white;
+}
+
+.welcome:hover h3 {
+    color: red;
+    font-weight: bold;
+}
+
+
+.allback {
+    padding: 50px;
+}
+
+.kg {
+    margin-top: 50px;
+    background-color: #FAF1E6;
+    width: 100%;
+    padding: 75px;
+    max-width: 1200px;
+    margin-left: 300px;
+}
+
+.kg img {
+    float: right;
+    height: 300px;
+    width: 500px;
+    padding-bottom: 50px;
+}
+
+.pix {
+    margin-top: 50px;
+    background-color: #FAF1E6;
+    width: 100%;
+    padding: 75px;
+    max-width: 1200px;
+    margin-left: 300px;
+
+}
+
+.pix img {
+    float: inline-start;
+    height: 300px;
+    width: 500px;
+    padding-bottom: 50px;
+    padding-right: 60px;
+}
+
+.vm {
+    margin-top: 60px;
+    margin-left: 700px;
+    font-weight: bold;
+    font-family: "Grand Hotel", cursive;
+}
+
+.vm h3 {
+    margin-left: 120px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vm h4 {
+    font-weight: bolder;
+    margin-left: 60px;
+    font-size: 30px;
+    color: red;
+}
+
+
+#gridsect {
+    display: flex;
+    gap: 63px;
+    justify-content: center;
+    margin-left: 100px;
+    transition: transform 0.3s;
+}
+
+.card{
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+footer {
+    display: flex;
+    background-color: #333446;
+    color: white;
+    padding: 70px;
+    font-size: 50px;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.ad {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.ad1 {
+    background-color: #FAF1E6;
+    margin-left: 590px;
+    padding: 40px;
+    margin-right: 540px;
+}
+
+
+#add2 h3 {
+    color: white;
+
+}
+
+#cal2 h3 {
+    color: white;
+
+}
+
+#cont1 {
+    background-color: red;
+    padding: 10px;
+}
+
+.cont {
+    color: white;
+    font-size: 48px;
+    font-family: "Grand Hotel", cursive;
+    padding-left: 150px;      
+    margin-top: 10px;
+}
+
+.send {
+    float: left;
+    margin-left: 550px;
+}
+
+.send h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #303030;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.send h4 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Grand Hotel", cursive;
+    color: #ff3426;
+    font-weight: 400;
+}
+
+.conform {
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+
+#name,#number,#email,#message {
+    width: 250px;
+}
+
+.add {
+    float: right;
+    margin-right: 400px;
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#address, #Calling, #emai {
+    background-color: #FFE6E1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#Calling {
+    background-color: red;
+    color: white;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+h4, p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+#Calling>h3 {
+    color: white;
+}
+
+.adform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+#adform h1, #request h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 40px;
+}
+
+
+form {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+#submitcon {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+
+}
+
+#navbarNav li a {
+    font-weight: bold;
+
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 120px;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 700px;
+    margin-right: 700px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+#achicard{
+    
+    margin-top: 180px;
+    margin-right: 270px;
+}
+
+.restable{
+    margin-top: 300px;
+    position: absolute;
+    right: 545   px;
+}
+
+#hd{
+    margin-right: 200px;
+}
+
+.restabl{
+    margin-top: 500px;
+    position: absolute;
+    right: 300px;
+}
+
+.restabl th{
+    padding-right: 220px;
+}
